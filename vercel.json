@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://rohitisog.com/:1",
+      "destination": "https://rohitisog.com/$1",
       "permanent": true
     }
   ]
