@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // 👇 Add this line (your actual domain)
+  metadataBase: new URL("https://rohitisog.com"),
+
   title: "KR Rohit — Full Stack Blockchain Developer",
   description: "rohitisog's personal website & projects",
   keywords: [
@@ -41,6 +44,12 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "KR Rohit — Blockchain Developer",
+    description: "Personal portfolio & projects by KR Rohit",
+    images: ["/ProfilePic.png"],
   },
 };
 
